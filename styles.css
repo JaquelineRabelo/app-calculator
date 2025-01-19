@@ -1,0 +1,65 @@
+/* Defina o gradiente de fundo para o corpo do site */
+body {
+    background: linear-gradient(to bottom, #663399, #000000);
+    color: #ffffff; /* Texto em branco para contraste */
+}
+
+/* Estilize a barra de navegação */
+.navbar {
+    background-color: #663399;
+}
+
+/* Estilize os links da barra de navegação */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* Estilize o título das seções */
+h1, h2 {
+    color: #663399;
+}
+
+/* Estilize o formulário de contato */
+.form-control {
+    background-color: #663399;
+    border-color: #663399;
+    color: #ffffff;
+}
+
+/* Estilize o botão de envio */
+.btn-primary {
+    background-color: #663399;
+    border-color: #663399;
+}
+
+/* Estilize os cards do portfolio */
+.card {
+    background-color: #000000;
+    border-color: #663399;
+    color: #ffffff;
+}
+
+/* Estilize o rodapé */
+footer {
+    background-color: #663399;
+    color: #ffffff;
+}
+
+
+/* Ajuste a altura dos cards para alinhar com o carousel */
+.carousel-inner .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+
+/* Estilize os indicators (pontos de navegação) do carousel */
+.carousel-indicators li {
+    background-color: #663399;
+}
+
+/* Estilize os controls (setas de navegação) do carousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #663399;
+}
